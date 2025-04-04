@@ -2,9 +2,11 @@ name: 部署博客
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    branches:
+      - main
+
+permissions:
+  contents: write
 
 jobs:
   deploy-gh-pages:
