@@ -5,8 +5,8 @@ import theme from "./theme.js";
 export default defineUserConfig({
     base: "/",
     lang: "zh-CN",
-    title: "Golang 中文学习文档",
-    description: "Go 爱好者驱动的中文学习文档",
+    title: "ISpace",
+    description: "我的专属空间",
 
     head: [
         [

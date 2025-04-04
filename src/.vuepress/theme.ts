@@ -3,12 +3,12 @@ import { zhNavbar } from "./navbar";
 import { zhSidebar } from "./sidebar";
 
 export default hopeTheme({
-  hostname: "https://golang.halfiisland.com/",
+  hostname: "",
 
   author: {
-    name: "寒江蓑笠翁",
-    url: "https://246859.github.io/",
-    email: "2633565580@qq.com",
+    name: "PixelBai",
+    url: "https://github.com/PixelBai/ispace",
+    email: "850568054@qq.com",
   },
 
   iconAssets: "//at.alicdn.com/t/font_2410206_vuzkjonf4s9.css",
@@ -19,7 +19,7 @@ export default hopeTheme({
   // 仓库
   repo: "Open-Source-CQUT/Golang-Doc",
   // 版权
-  copyright: "MIT Licensed | Copyright © 2021-present 寒江",
+  copyright: "MIT Licensed | Copyright © 2025 PixelBai",
   // 仓库中的文件夹
   docsDir: "/src",
   // 导航栏
