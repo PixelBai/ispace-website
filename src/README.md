@@ -3,7 +3,7 @@ home: true
 icon: home
 title: 首页
 heroImage: /logo.png
-heroText: Golang中文学习文档站
+heroText: Ispace
 tagline: Go爱好者驱动的中文学习站
 actions:
   - text: 快速开始 💡
