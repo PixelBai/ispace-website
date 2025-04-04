@@ -15,7 +15,7 @@ export default defineUserConfig({
             `var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?87d678935e4b33455c0390543e7a759d";
+  hm.src = "https://hm.baidu.com/hm.js?000";
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();`,
@@ -24,7 +24,7 @@ export default defineUserConfig({
             "script",
             {
                 async: true,
-                src: "https://www.googletagmanager.com/gtag/js?id=G-6K9H75LPZG"
+                src: "https://www.googletagmanager.com/gtag/js?id=000"
             }
         ],
         [
@@ -34,7 +34,7 @@ export default defineUserConfig({
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-6K9H75LPZG');`
+  gtag('config', 'G-000');`
         ],
     ],
 

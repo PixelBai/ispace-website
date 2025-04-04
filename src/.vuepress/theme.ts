@@ -7,7 +7,7 @@ export default hopeTheme({
 
   author: {
     name: "PixelBai",
-    url: "https://github.com/PixelBai/ispace",
+    url: "https://ispace.rcep.link/",
     email: "850568054@qq.com",
   },
 
@@ -15,13 +15,14 @@ export default hopeTheme({
 
   sidebarSorter: ["filename", "order", "date", "readme"],
   // logo
-  logo: "/logo.png",
+  logo: "/logo.svg",
   // 仓库
-  repo: "Open-Source-CQUT/Golang-Doc",
+  repo: "PixelBai/ispace-website",
+  repoDisplay: false,
   // 版权
   copyright: "MIT Licensed | Copyright © 2025 PixelBai",
   // 仓库中的文件夹
-  docsDir: "/src",
+  docsDir: "/src", 
   // 导航栏
   navbar: zhNavbar,
   // 侧边栏

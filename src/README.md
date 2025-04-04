@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: 首页
-heroImage: /logo.png
+heroImage: /logo.svg
 heroText: Ispace
 tagline: ispace,我的专属空间。
 actions:
