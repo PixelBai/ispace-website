@@ -1,32 +1,43 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export const zhSidebar = sidebar({
-  "/guide/": [ 
+  "/quickstart/": [ 
     {
       icon: "home",
-      text: "前言",
-      link: "/guide/guide",
+      text: "准备",
+      link: "ready",
     }, 
     {
       icon: "activity",
-      text: "快速开始",
-      prefix: "essential/",
-      children: [
-        // {
-        //   icon: "bit",
-        //   text: "安装环境",
-        //   prefix: "base/",
-        //   collapsible: true,
-        //   children: "structure",
-        // },
-      ],
+      text: "运行",
+      link: "run",
     },
     {
       icon: "software",
-      text: "关于",
-      prefix: "community/",
-      // children: "structure",
-      children: [],
+      text: "使用",
+      link: "use", 
+    },
+  ],
+  "/docs/": [
+    {
+      icon: "home",
+      text: "概述",
+      link: "overview",
+    }, 
+    {
+      icon: "activity",
+      text: "使用",
+      link: "use",
+    },
+    {
+      icon: "software",
+      text: "开发",
+      link: "develop", 
+    },
+    {
+      icon: "activity",
+      text: "部署",
+      link: "deploy",
     },
   ],
 });
