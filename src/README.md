@@ -13,9 +13,6 @@ actions:
   - text: 文档 📚
     link: /essential/base/0.ready.html
 
-
-## 随风倒十分
-
 features:
   - title: 简洁高效
     icon: light
@@ -32,8 +29,3 @@ features:
 copyright: false
 footer: MIT LICENSE | Copyright © 2025 PixelBai
 ---
-
-
-## 我想要飞翔。
-
-  这是我的名字！！
