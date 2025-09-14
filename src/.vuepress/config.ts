@@ -31,17 +31,5 @@ export default defineUserConfig({
     theme,
 
     shouldPrefetch: false,
-    pagePatterns: ["**/*.md", "!**/*.snippet.md", "!.vuepress", "!node_modules"],
-  locales: {
-      '/': {
-          lang: 'zh-CN',
-          title: 'ISpace',
-          description: '我的专属空间',
-      },
-      '/en/': {
-          lang: 'en-US',
-          title: 'ISpace',
-          description: 'My personal space',
-      },
-  }, 
+    pagePatterns: ["**/*.md", "!**/*.snippet.md", "!.vuepress", "!node_modules"], 
 });

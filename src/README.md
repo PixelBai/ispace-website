@@ -7,11 +7,12 @@ heroText: Ispace
 tagline: ispace,我的专属空间。
 actions:
   - text: 快速开始 💡
-    link: /guide.html
+    link: /quickstart.html
     type: primary
 
   - text: 文档 📚
-    link: /essential/base/0.ready.html 
+    link: /docs/overview.html
+    type: default
 
 features:
   - title: 简洁高效
@@ -30,7 +31,7 @@ features:
     details: 云端办公，面向未来。 
  
 copyright: false
-footer: MIT LICENSE | Copyright © 2025 PixelBai
+footer: MIT LICENSE | Copyright © 2025 PixelBai 
 ---
 
 <div class="img-list">
@@ -70,5 +71,3 @@ footer: MIT LICENSE | Copyright © 2025 PixelBai
   margin-bottom: 10px;
 }
 </style>
-
- 
