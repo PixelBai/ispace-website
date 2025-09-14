@@ -1,6 +1,11 @@
 import {viteBundler} from "@vuepress/bundler-vite";
 import {defineUserConfig} from "vuepress";
 import theme from "./theme.js";
+import zh from "./zh.js";
+ 
+import type { UserConfig } from 'vuepress' 
+ 
+
 
 export default defineUserConfig({
     base: "/",
@@ -8,8 +13,6 @@ export default defineUserConfig({
     title: "ISpace",
     description: "我的专属空间",
  
-
-
     head: [
         [
             "script",
@@ -29,4 +32,16 @@ export default defineUserConfig({
 
     shouldPrefetch: false,
     pagePatterns: ["**/*.md", "!**/*.snippet.md", "!.vuepress", "!node_modules"],
+  locales: {
+      '/': {
+          lang: 'zh-CN',
+          title: 'ISpace',
+          description: '我的专属空间',
+      },
+      '/en/': {
+          lang: 'en-US',
+          title: 'ISpace',
+          description: 'My personal space',
+      },
+  }, 
 });

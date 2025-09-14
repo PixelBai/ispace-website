@@ -1,23 +1,6 @@
 import { sidebar } from "vuepress-theme-hope";
 
-export const zhSidebar = sidebar({
-  "/quickstart/": [ 
-    {
-      icon: "home",
-      text: "准备",
-      link: "ready",
-    }, 
-    {
-      icon: "activity",
-      text: "运行",
-      link: "run",
-    },
-    {
-      icon: "software",
-      text: "使用",
-      link: "use", 
-    },
-  ],
+export const zhSidebar = sidebar({ 
   "/docs/": [
     {
       icon: "home",
@@ -40,4 +23,5 @@ export const zhSidebar = sidebar({
       link: "deploy",
     },
   ],
+  
 });

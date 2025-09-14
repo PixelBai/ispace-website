@@ -27,6 +27,7 @@ export default hopeTheme({
   navbar: zhNavbar,
   // 侧边栏
   sidebar: zhSidebar,
+  breadcrumb: false,
 
   // page meta
   metaLocales: {
@@ -46,6 +47,6 @@ export default hopeTheme({
 
     slimsearch: {
       indexContent: true,
-    },
+    }, 
   },
 });
