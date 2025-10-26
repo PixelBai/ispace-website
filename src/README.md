@@ -12,7 +12,7 @@ actions:
 
   - text: 文档 📚
     link: /docs/overview.html
-    type: default
+    type: default 
 
 features:
   - title: 简洁高效
@@ -48,7 +48,7 @@ footer: MIT LICENSE | Copyright © 2025 PixelBai
     <img src="/images/textapp.png" alt="文本编辑器图片" />
   </div>
 </div>
-
+ 
 <style>
 .img-list {
   display: flex;
