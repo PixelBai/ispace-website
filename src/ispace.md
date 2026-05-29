@@ -21,7 +21,7 @@ next: false
       <p class="demo-tip">提示: 使用上方提供的测试账号登录体验完整功能</p>
     </div>
     <div class="demo-actions">
-      <a href="https://demo.ispace.rcep.link/app/desktop/home" target="_blank" class="demo-button primary">
+      <a href="https://ispace.xingdian.net/app/desktop/home" target="_blank" class="demo-button primary">
         立即进入演示
       </a> 
     </div> 
