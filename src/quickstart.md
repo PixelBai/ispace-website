@@ -85,7 +85,7 @@ sudo docker run hello-world
 虽然可以直接使用镜像名称运行，但建议先手动拉取以确保镜像存在：
 
 ```bash
-docker pull crpi-1j5s6p97cpzwcsn0.cn-hangzhou.personal.cr.aliyuncs.com/pixelbai/ispace:1.1
+docker pull crpi-1j5s6p97cpzwcsn0.cn-hangzhou.personal.cr.aliyuncs.com/pixelbai/ispace:1.3
 ```
 
 ### 2.2 运行容器
@@ -96,7 +96,7 @@ docker pull crpi-1j5s6p97cpzwcsn0.cn-hangzhou.personal.cr.aliyuncs.com/pixelbai/
 docker run -d \
   -p 8087:80 \  # 将容器内的80端口映射到主机的8087端口
   --name ispace \  # 容器名称
-  crpi-1j5s6p97cpzwcsn0.cn-hangzhou.personal.cr.aliyuncs.com/pixelbai/ispace:1.1
+  crpi-1j5s6p97cpzwcsn0.cn-hangzhou.personal.cr.aliyuncs.com/pixelbai/ispace:1.3
 ```
 
 **参数说明**：
@@ -157,7 +157,7 @@ docker run -d \
 version: '3'
 services:
   ispace:
-    image: crpi-1j5s6p97cpzwcsn0.cn-hangzhou.personal.cr.aliyuncs.com/pixelbai/ispace:1.1
+    image: crpi-1j5s6p97cpzwcsn0.cn-hangzhou.personal.cr.aliyuncs.com/pixelbai/ispace:1.3
     container_name: ispace
     ports:
       - "8087:80"
@@ -178,7 +178,7 @@ docker run -d \
   -p 8087:80 \
   --name ispace \
   -v /path/to/host/data:/home \  # 替换为实际路径
-  crpi-1j5s6p97cpzwcsn0.cn-hangzhou.personal.cr.aliyuncs.com/pixelbai/ispace:1.1
+  crpi-1j5s6p97cpzwcsn0.cn-hangzhou.personal.cr.aliyuncs.com/pixelbai/ispace:1.3
 ```
 
 ---
@@ -214,13 +214,13 @@ docker rm ispace
 ### 6.2 拉取最新镜像（如有更新）
 
 ```bash
-docker pull crpi-1j5s6p97cpzwcsn0.cn-hangzhou.personal.cr.aliyuncs.com/pixelbai/ispace:1.1
+docker pull crpi-1j5s6p97cpzwcsn0.cn-hangzhou.personal.cr.aliyuncs.com/pixelbai/ispace:1.3
 ```
 
 ### 6.3 重新启动容器
 
 ```bash
-docker run -d -p 8087:80 --name ispace crpi-1j5s6p97cpzwcsn0.cn-hangzhou.personal.cr.aliyuncs.com/pixelbai/ispace:1.1
+docker run -d -p 8087:80 --name ispace crpi-1j5s6p97cpzwcsn0.cn-hangzhou.personal.cr.aliyuncs.com/pixelbai/ispace:1.3
 ```
 
 或使用 Docker Compose：
