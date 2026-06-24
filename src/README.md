@@ -4,7 +4,7 @@ icon: home
 title: 首页
 heroImage: /logo.svg
 heroText: Ispace
-tagline: ispace,我的专属空间。
+tagline: 轻量级个人数字空间，5分钟拥有自己的私人空间
 actions:
   - text: 快速开始 💡
     link: /quickstart.html
@@ -12,23 +12,20 @@ actions:
 
   - text: 文档 📚
     link: /docs/overview.html
-    type: default 
+    type: default
 
 features:
-  - title: 简洁高效
-    icon: app
-    details: 本地桌面一样，简单便捷。
-    image:
-      src: /images/download.png
-      alt: download
-
   - title: 文件管理
     icon: file
-    details: 灵活自由，管理大量自由。
+    details: 像本地桌面一样管理文件，灵活自由，支持批量操作和拖拽。
 
-  - title: 文档编辑
+  - title: TXT编辑
     icon: edit
-    details: 云端办公，面向未来。 
+    details: 在线文本编辑，支持查找替换，云端办公，面向未来。
+
+  - title: Docker私有部署
+    icon: server
+    details: 一键部署，数据完全掌控，适合程序员、NAS用户和极客。 
  
 copyright: false
 footer: MIT LICENSE | Copyright © 2025 PixelBai 
